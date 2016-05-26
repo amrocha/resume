@@ -1,0 +1,163 @@
+{
+  "basics": {
+    "name": "Andre Matheus Rocha",
+    "label": "Full-Stack Developer",
+    "picture": "",
+    "email": "andrematheus94@gmail.com",
+    "phone": "(613) 617-4461",
+    "website": "http://amrocha.github.io",
+    "summary": "Andre Rocha is a full-stack software engineer. He graduated from the Software Engineering co-op program at the University of Ottawa. Andre is a disciplined, self-directed worker who learns very quickly and is accustomed to taking on challenges from conception all the way to implementation. His flexibility as a developer and dedication to the quality of his work is a valuable addition to any team.",
+    "location": {
+      "address": "353 Friel Street",
+      "postalCode": "K1N 7W7",
+      "city": "Ottawa",
+      "countryCode": "Canada",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "amrocha",
+        "url": "https://github.com/amrocha"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Andre Rocha",
+        "url": "https://www.linkedin.com/in/andre-rocha-86552385"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "360pi",
+      "position": "Software Engineer",
+      "website": "http://360pi.com",
+      "startDate": "2015-09-28",
+      "summary": "Python, MongoDB, Ember, React. Test automation and new product development.",
+      "highlights": [
+        "Automated a significant part of the UI testing suite using Selenium, Saucelabs and Jenkins",
+        "Wrote tools to automate, simplify and speed up deployment to a cloud infrastructure",
+        "Measurably improved and tested changes to an AI responsible for matching products from different sites together",
+        "Designed and implemented a scalable architecture for a platform upon which other products would be built",
+        "Used modern web technologies such as Gulp, Ember and ES2015 to handle the frontend of a web app",
+        "Debugged and fixed issues in a cloud infrastructure with hundreds of servers using logging, scripts and other tools",
+        "Responsible for rapid prototyping of ideas with turnaround of a few hours, or minutes in some cases",
+        "Implemented an interactive, performant data visualization with thousands of data points using Javascript"
+      ]
+    },
+    {
+      "company": "Searidge Technologies",
+      "position": "Test Automation Engineer",
+      "website": "http://searidgetech.com/",
+      "startDate": "2014-01-01",
+      "endDate": "2014-12-01",
+      "summary": "Test automation and product verification",
+      "highlights": [
+        "Final project of university program, done as a contract with Searidge Technologies",
+        "Wrote a script that automatically tests the calibration of Searidge’s cameras",
+        "Designed the architecture and wrote an algorithm that compares calibration and test data to find any breaking changes"
+      ]
+    },
+    {
+      "company": "OrbitHub",
+      "position": "Software Engineer",
+      "website": "https://orbithub.com/",
+      "startDate": "2014-05-01",
+      "endDate": "2014-08-01",
+      "summary": "PHP, MySQL. Full-stack development.",
+      "highlights": [
+         "Designed and implemented a scalable and maintainable architecture for a website",
+         "Implemented friends, messaging, and notification features of the site",
+         "Used Stripe to implement a payment system that can accept payment on behalf of any OrbitHub user"
+      ]
+    },
+    {
+      "company": "ARCS Corp.",
+      "position": "Software Engineer",
+      "website": "https://orbithub.com/",
+      "startDate": "2013-09-01",
+      "endDate": "2013-12-01",
+      "summary": "AWS, PHP, Javascript. Server management.",
+      "highlights": [
+        "Managed several web servers hosting hundreds of sites",
+        "Monitored apache logs, identifying any issues and determining a solution whenever possible",
+        "Wrote shell scripts to automate backups",
+        "Used Apache Cordova to debug an existing mobile application, and submitted it to both the Android Play Store and the iOS App Store"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2010-09-01",
+      "endDate": "2014-12-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML5/CSS/JS",
+        "Ember",
+        "React",
+        "Rails",
+        "Build Tools (Grunt, Gulp)"
+      ]
+    },
+    {
+      "name": "Preferred Languages",
+      "keywords": [
+        "Python",
+        "Ruby",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Experienced with",
+      "keywords": [
+        "Java",
+        "C",
+        "C++",
+        "PHP",
+        "Haskell"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Misc.",
+      "keywords": [
+        "UNIX",
+        "Git",
+        "AWS",
+        "Scrum",
+        "TDD"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Working Level"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Working Level"
+    }
+  ]
+}
