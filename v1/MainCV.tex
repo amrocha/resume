@@ -1,0 +1,185 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Andr\'e Rocha}
+\address{22 Amanda Street || Hamilton, ON} % Your address
+\address{(613)~$\cdot$~617~$\cdot$~4461\\ andrematheus94@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SUMMARY}
+
+I am an experienced developer that's worked in multiple academic and commercial projects, using both local and distributed architectures with networking features.  My personal projects include a framework that assists in testing distributed algorithms across n number of nodes, designed to significantly reduce setup time and facilitate benchmark testing.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Ottawa, Ontario} \hfill {\em December 2014} \\ 
+Baccalaureate in Software Engineering/CO-OP\\
+
+{\bf Lisgar Collegiate Institute, Ontario} \hfill {\em June 2010} \\ 
+Ontario Secondary School Diploma\\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROGRAMMING LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Programming Languages}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Language of Choice & Python \\
+Proficient & Java, C, PHP, HTML/CSS/JS \\
+Familiar & Bash, Batch, C++, C\#, Ruby, Haskell \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Mobile & Android, iOS \\
+Databases & MySQL, PostgreSQL \\
+Tools & SVN, Git \\
+OS & Windows, OS X, Ubuntu \\
+APIs & Stripe, Twitter, DigitalOcean, experienced in writing libraries for APIs\\
+Misc. & jQuery, AJAX, Agile, Scrum, Test-driven development\\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Freelancing}{January 2015 - Ongoing}{}{Ottawa, ON}
+\item Done several server managerial tasks such as setting up backups, fixing Apache errors etc;
+\item Currently working on a multiplatform mobile application for Android and iOS;
+\end{rSubsection}
+
+\begin{rSubsection}{Searidge Technologies}{January 2014 - April 2014, August 2014 - December 2014}{Test Automation Engineer}{Ottawa, ON}
+\item Final project of university program, done as a contract to Searidge Technologies;
+\item Wrote a script that automatically tests the calibration of Searidge's airport monitoring cameras;
+\item Designed the architecture and wrote the algorithm that compares calibration and test data;
+\end{rSubsection}
+
+\begin{rSubsection}{OrbitHub}{May 2014 - August 2014}{Software Engineer}{Ottawa, ON}
+\item Designed and implemented a scalable and maintainable architecture for a website;
+\item Implemented friends, messaging, and notification features of the site;
+\item Used Stripe to implement a payment system that can accept payment on behalf of any OrbitHub user;
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{ARCS Corp.}{September 2013 - December 2013}{Software Engineer}{Ottawa, ON}
+\item Managed several web servers hosting hundreds of sites;
+\item Monitored apache logs, identifying any issues and determining a solution whenever possible;
+\item Wrote shell scripts to automate backups;
+\item Used Apache Cordova to debug an existing mobile application, and submitted it to both the Android Play Store and the iOS App Store;
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Ottawa}{January 2013 - April 2013}{Assistant Webmaster}{Ottawa, ON}
+\item Designed website for adhering to university's web design guidelines;
+\item Led the team in gathering requirements for a project;
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Ottawa}{May 2012 - August 2012}{Assistant Webmaster}{Ottawa, ON}
+\item Refactored the sports center website for maintainability using Drupal 7;
+\item Designed, implemented and deployed a new architecture to production;
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{DistRunner}{}{}{}
+\item Personal project created as an extension of an assignment for a professor;
+\item Wrote library that lets user describe and run any distributed protocol on any number of nodes;
+\item Uses the DigitalOcean API to deploy necessary nodes;
+\item Written with input from University of Ottawa professor to actually be useful in a teaching environment;
+\end{rSubsection}
+
+\begin{rSubsection}{APIFire}{}{}{}
+\item Created to reduce amount of work in setup for personal projects;
+\item Wrote a script that takes a json file describing a RESTful API as input, and outputs a library in Python;
+\item Designed with flexibility in mind, very simple to implement another output language;
+\item Written to speed up smaller personal projects, and as a way to understand RESTful APIs better;
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Languages}
+
+%\begin{tabular}{ @{} >{}l @{\hspace{6ex}} l }
+%Native & Portuguese \\
+%Fluent & English \\
+%Basic Knowledge & Spanish, Italian \\
+
+%\end{tabular}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Hobbies and Interests}
+
+%\item eSports
+%\item Hand-drawn animation
+%\item Guitar
+
+%\end{rSection}
+
+\end{document}
