@@ -33,14 +33,13 @@
       "position": "Software Engineer",
       "website": "http://360pi.com",
       "startDate": "2015-09-28",
-      "summary": "Python, MongoDB, Ember, React. Test automation and new product development.",
+      "summary": "At 360pi I used Python, MongoDB, Ember and AWS to maintain, test and scale an enterprise-level B2B Saas web app, and helped take a new major product from conception to having its first clients.",
       "highlights": [
         "Automated a significant part of the UI testing suite using Selenium, Saucelabs and Jenkins",
-        "Wrote tools to automate, simplify and speed up deployment to a cloud infrastructure",
+        "Wrote tools to automate, simplify and speed up deployment to an AWS cloud infrastructure",
         "Measurably improved and tested changes to an AI responsible for matching products from different sites together",
         "Designed and implemented a scalable architecture for a platform upon which other products would be built",
-        "Used modern web technologies such as Gulp, Ember and ES2015 to handle the frontend of a web app",
-        "Debugged and fixed issues in a cloud infrastructure with hundreds of servers using logging, scripts and other tools",
+        "Used modern web technologies such as Gulp, ES2015, Sass and Browserify to set up a frontend asset pipeline and development workflow",
         "Responsible for rapid prototyping of ideas with turnaround of a few hours, or minutes in some cases",
         "Implemented an interactive, performant data visualization with thousands of data points using Javascript"
       ]
